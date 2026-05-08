@@ -1,0 +1,11 @@
+rank,experiment_id,feature_method,n_components,model_backend,glmnet_alpha,model_short,aggregation,primary_metric,accuracy,balanced_accuracy,macro_f1,multiclass_logloss
+1,EXP072_categorical_three_stage_NMFk50_xgboost_seed2026,NMF,50,xgboost,,Naive,median_prob,0.6666666666666666,0.8333333333333334,0.6666666666666666,0.9166666666666666,0.8164120096374443
+2,EXP068_categorical_three_stage_NMFk20_xgboost_seed2026,NMF,20,xgboost,,Naive,median_prob,0.6666666666666666,0.8333333333333334,0.6666666666666666,0.9166666666666666,0.7816554204135947
+3,EXP044_categorical_three_stage_PCAk20_xgboost_seed2026,PCA,20,xgboost,,MCEM-MMIL,mean_prob,0.6,0.75,0.6,0.8181818181818181,0.9626429626616176
+4,EXP044_categorical_three_stage_PCAk20_xgboost_seed2026,PCA,20,xgboost,,EM-MMIL,mean_prob,0.6,0.75,0.6,0.8181818181818181,0.9544025729410603
+5,EXP043_categorical_three_stage_PCAk20_glmnet_lasso_seed2026,PCA,20,glmnet,1.0,EM-MMIL,mean_prob,0.6,0.75,0.6,0.8181818181818181,0.9245757596181052
+6,EXP043_categorical_three_stage_PCAk20_glmnet_lasso_seed2026,PCA,20,glmnet,1.0,Naive,median_prob,0.6,0.75,0.6,0.8181818181818181,0.8220116289521148
+7,EXP042_categorical_three_stage_PCAk20_glmnet_elasticnet_seed2026,PCA,20,glmnet,0.5,MCEM-MMIL,mean_prob,0.6,0.75,0.6,0.8181818181818181,0.9230391469927576
+8,EXP042_categorical_three_stage_PCAk20_glmnet_elasticnet_seed2026,PCA,20,glmnet,0.5,EM-MMIL,mean_prob,0.6,0.75,0.6,0.8181818181818181,0.9287292309811505
+9,EXP042_categorical_three_stage_PCAk20_glmnet_elasticnet_seed2026,PCA,20,glmnet,0.5,Naive,median_prob,0.6,0.75,0.6,0.8181818181818181,0.8221407051841414
+10,EXP041_categorical_three_stage_PCAk20_glmnet_ridge_seed2026,PCA,20,glmnet,0.0,MCEM-MMIL,mean_prob,0.6,0.75,0.6,0.8181818181818181,0.91535074222568

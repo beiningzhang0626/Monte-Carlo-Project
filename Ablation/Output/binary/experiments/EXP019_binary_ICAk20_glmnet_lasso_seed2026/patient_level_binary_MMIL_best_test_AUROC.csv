@@ -1,0 +1,4 @@
+split,model,aggregation,n_patients,n_early,n_advanced,auroc
+test,Deterministic EM-MMIL,median_prob,11,5,6,0.9666666666666667
+test,MCEM-MMIL,mean_prob,11,5,6,0.9333333333333333
+test,Naive inherited-label classifier,mean_prob,11,5,6,1.0

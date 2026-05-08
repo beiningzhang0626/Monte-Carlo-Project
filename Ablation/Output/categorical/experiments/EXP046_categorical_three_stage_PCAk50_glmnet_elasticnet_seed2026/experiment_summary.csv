@@ -1,0 +1,4 @@
+experiment_id,task_type,categorical_scheme,feature_method,n_components,model_backend,glmnet_alpha,seed,rho,label_strength,mcem_samples,model,aggregation,n_patients,n_early,n_advanced,auroc,multiclass_logloss,accuracy,balanced_accuracy,macro_f1,metric_name,metric_value
+EXP046_categorical_three_stage_PCAk50_glmnet_elasticnet_seed2026,categorical,three_stage,PCA,50,glmnet,0.5,2026,,0.7,30,Categorical EM-MMIL,mean_prob,12,,,,1.0389264069813275,0.75,0.6,0.8181818181818181,accuracy,0.75
+EXP046_categorical_three_stage_PCAk50_glmnet_elasticnet_seed2026,categorical,three_stage,PCA,50,glmnet,0.5,2026,,0.7,30,Categorical MCEM-MMIL,mean_prob,12,,,,1.0255229927376392,0.75,0.6,0.8181818181818181,accuracy,0.75
+EXP046_categorical_three_stage_PCAk50_glmnet_elasticnet_seed2026,categorical,three_stage,PCA,50,glmnet,0.5,2026,,0.7,30,Naive inherited-label classifier,median_prob,12,,,,0.7290330014223771,0.75,0.6,0.8181818181818181,accuracy,0.75

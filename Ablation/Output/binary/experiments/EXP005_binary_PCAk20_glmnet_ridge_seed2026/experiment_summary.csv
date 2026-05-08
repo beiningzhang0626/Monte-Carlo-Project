@@ -1,0 +1,4 @@
+experiment_id,task_type,categorical_scheme,feature_method,n_components,model_backend,glmnet_alpha,seed,rho,label_strength,mcem_samples,model,aggregation,n_patients,n_early,n_advanced,auroc,multiclass_logloss,accuracy,balanced_accuracy,macro_f1,metric_name,metric_value
+EXP005_binary_PCAk20_glmnet_ridge_seed2026,binary,,PCA,20,glmnet,0,2026,0.7,,30,Deterministic EM-MMIL,mean_prob,11,5,6,1.0,,,,,auroc,1.0
+EXP005_binary_PCAk20_glmnet_ridge_seed2026,binary,,PCA,20,glmnet,0,2026,0.7,,30,MCEM-MMIL,mean_prob,11,5,6,1.0,,,,,auroc,1.0
+EXP005_binary_PCAk20_glmnet_ridge_seed2026,binary,,PCA,20,glmnet,0,2026,0.7,,30,Naive inherited-label classifier,mean_prob,11,5,6,1.0,,,,,auroc,1.0

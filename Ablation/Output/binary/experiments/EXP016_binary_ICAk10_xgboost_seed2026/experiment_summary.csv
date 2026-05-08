@@ -1,0 +1,4 @@
+experiment_id,task_type,categorical_scheme,feature_method,n_components,model_backend,glmnet_alpha,seed,rho,label_strength,mcem_samples,model,aggregation,n_patients,n_early,n_advanced,auroc,multiclass_logloss,accuracy,balanced_accuracy,macro_f1,metric_name,metric_value
+EXP016_binary_ICAk10_xgboost_seed2026,binary,,ICA,10,xgboost,,2026,0.7,,30,Deterministic EM-MMIL,q99_prob,11,5,6,0.9333333333333333,,,,,auroc,0.9333333333333333
+EXP016_binary_ICAk10_xgboost_seed2026,binary,,ICA,10,xgboost,,2026,0.7,,30,MCEM-MMIL,q99_prob,11,5,6,0.9333333333333333,,,,,auroc,0.9333333333333333
+EXP016_binary_ICAk10_xgboost_seed2026,binary,,ICA,10,xgboost,,2026,0.7,,30,Naive inherited-label classifier,q90_prob,11,5,6,1.0,,,,,auroc,1.0

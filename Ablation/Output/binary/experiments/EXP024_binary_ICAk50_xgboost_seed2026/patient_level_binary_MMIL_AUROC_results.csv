@@ -1,0 +1,37 @@
+split,model,aggregation,n_patients,n_early,n_advanced,auroc
+test,Deterministic EM-MMIL,mean_prob,11,5,6,1.0
+test,Deterministic EM-MMIL,median_prob,11,5,6,1.0
+test,Deterministic EM-MMIL,prop_gt_0.9,11,5,6,0.9666666666666668
+test,Deterministic EM-MMIL,prop_gt_0.5,11,5,6,0.9666666666666667
+test,Deterministic EM-MMIL,q90_prob,11,5,6,0.9333333333333333
+test,Deterministic EM-MMIL,q99_prob,11,5,6,0.8
+test,MCEM-MMIL,mean_prob,11,5,6,1.0
+test,MCEM-MMIL,median_prob,11,5,6,1.0
+test,MCEM-MMIL,prop_gt_0.5,11,5,6,1.0
+test,MCEM-MMIL,q90_prob,11,5,6,1.0
+test,MCEM-MMIL,prop_gt_0.9,11,5,6,0.9666666666666668
+test,MCEM-MMIL,q99_prob,11,5,6,0.8666666666666667
+test,Naive inherited-label classifier,mean_prob,11,5,6,1.0
+test,Naive inherited-label classifier,median_prob,11,5,6,1.0
+test,Naive inherited-label classifier,prop_gt_0.5,11,5,6,1.0
+test,Naive inherited-label classifier,q90_prob,11,5,6,1.0
+test,Naive inherited-label classifier,q99_prob,11,5,6,0.9666666666666668
+test,Naive inherited-label classifier,prop_gt_0.9,11,5,6,0.9333333333333333
+train,Deterministic EM-MMIL,median_prob,33,15,18,0.9703703703703703
+train,Deterministic EM-MMIL,mean_prob,33,15,18,0.9555555555555556
+train,Deterministic EM-MMIL,q99_prob,33,15,18,0.9222222222222223
+train,Deterministic EM-MMIL,prop_gt_0.9,33,15,18,0.9166666666666667
+train,Deterministic EM-MMIL,q90_prob,33,15,18,0.9037037037037037
+train,Deterministic EM-MMIL,prop_gt_0.5,33,15,18,0.8777777777777778
+train,MCEM-MMIL,median_prob,33,15,18,1.0
+train,MCEM-MMIL,mean_prob,33,15,18,0.951851851851852
+train,MCEM-MMIL,q99_prob,33,15,18,0.9444444444444444
+train,MCEM-MMIL,prop_gt_0.9,33,15,18,0.9166666666666667
+train,MCEM-MMIL,q90_prob,33,15,18,0.8925925925925926
+train,MCEM-MMIL,prop_gt_0.5,33,15,18,0.8555555555555555
+train,Naive inherited-label classifier,mean_prob,33,15,18,1.0
+train,Naive inherited-label classifier,median_prob,33,15,18,1.0
+train,Naive inherited-label classifier,prop_gt_0.5,33,15,18,1.0
+train,Naive inherited-label classifier,q90_prob,33,15,18,1.0
+train,Naive inherited-label classifier,q99_prob,33,15,18,1.0
+train,Naive inherited-label classifier,prop_gt_0.9,33,15,18,0.9444444444444444
